@@ -20,17 +20,17 @@ export default function Home() {
         {/* HERO */}
         <section className="hero">
           <Link to="/shop?f=sale" className="hero-main hero-main--poster">
-            <img className="hero-photo" src="/img/promo-hero.png" alt="AMZ Optic — see the world. 35% off, order now." />
+            <img className="hero-photo" src="/img/promo-hero.webp" alt="AMZ Optic — see the world. 35% off, order now." />
           </Link>
 
           <div className="hero-side">
             <Link to="/shop?f=sale" className="hero-card offer">
-              <img className="card-art" src="/img/aurum-round.jpg" alt="" />
+              <img className="card-art" src="/img/aurum-round.webp" alt="" />
               <span className="tag">For New Comers</span>
               <h3 className="display">Exclusive<br />Offer</h3>
             </Link>
             <Link to="/shop" className="hero-card arrivals">
-              <img className="card-art" src="/img/luna-gold.jpg" alt="" />
+              <img className="card-art" src="/img/luna-gold.webp" alt="" />
               <span className="tag">New Arrivals</span>
               <h3 className="display">Fresh<br />Frames</h3>
             </Link>
@@ -88,8 +88,9 @@ export default function Home() {
           <div className="tryon-visual">
             <img
               className="tryon-studio-shot"
-              src="/img/tryon-studio.png"
+              src="/img/tryon-studio.webp"
               alt="AMZ Optic Studio — try any frame on your face before you buy"
+              loading="lazy"
             />
           </div>
         </section>

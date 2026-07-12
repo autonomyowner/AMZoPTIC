@@ -40,7 +40,7 @@ export default function Navbar() {
           </button>
 
           <Link to="/" className="brand" aria-label="AMZ Optic home">
-            <img src="/logo.png" alt="AMZ Optic" className="brand-logo" />
+            <img src="/logo.webp" alt="AMZ Optic" className="brand-logo" />
           </Link>
 
           <div className="search" role="search">

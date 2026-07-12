@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="foot-grid">
           <div>
             <div className="brand">
-              <img src="/logo.png" alt="AMZ Optic" className="brand-logo footer-logo" />
+              <img src="/logo.webp" alt="AMZ Optic" className="brand-logo footer-logo" />
             </div>
             <p className="slogan" style={{ color: "#c9c9c9", fontSize: 22 }}>see the world</p>
             <p>
