@@ -10,6 +10,7 @@ const LINKS = [
   { to: "/shop?f=men", label: "Men" },
   { to: "/shop?f=eyeglasses", label: "Eye Glasses" },
   { to: "/shop?f=sunglasses", label: "Sun Glass" },
+  { to: "/guide", label: "Guide" },
   { to: "/try-on", label: "Try-On Studio" },
 ];
 
