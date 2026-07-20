@@ -99,7 +99,9 @@ export default function Guide() {
             <section id={s.id} key={s.id} className="guide-shape" style={{ scrollMarginTop: 110 }}>
               <div className="guide-shape-visual">
                 <span className="guide-shape-index">0{i + 1}</span>
-                <img src={s.img} alt={`${s.name} face shape frame recommendations`} loading="lazy" />
+                <a href={s.img} target="_blank" rel="noopener noreferrer" title="Open full size">
+                  <img src={s.img} alt={`${s.name} face shape frame recommendations`} loading="lazy" />
+                </a>
               </div>
               <div className="guide-shape-body">
                 <div className="eyebrow">{s.tag}</div>

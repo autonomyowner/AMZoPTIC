@@ -808,8 +808,8 @@ footer {
 .guide-shapes { margin-top: 8px; }
 .guide-shape {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.3fr);
-  gap: clamp(24px, 5vw, 64px);
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: clamp(28px, 4vw, 56px);
   align-items: center;
   padding: clamp(40px, 6vw, 72px) 0;
   border-top: 1px solid var(--line);
@@ -820,11 +820,12 @@ footer {
   background: linear-gradient(150deg, #ffffff, #f3f3f3);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: clamp(28px, 5vw, 56px);
+  padding: clamp(16px, 2vw, 24px);
   display: grid;
   place-items: center;
 }
-.guide-shape-visual img { width: 100%; max-width: 360px; height: auto; border-radius: 10px; }
+.guide-shape-visual a { display: block; width: 100%; max-width: 620px; }
+.guide-shape-visual img { width: 100%; height: auto; border-radius: 10px; }
 .guide-shape-index {
   position: absolute;
   top: 16px;
